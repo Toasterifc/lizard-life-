@@ -1,0 +1,92 @@
+Tlizard life
+v7
+r1
+cCheck dependencies
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Info.plist
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/Barrel_icon.png
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/Images.xcassets
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/fly.png
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/lizard.png
+t2
+s0
+
+N/Users/loganjoseph/Desktop/lizard life/lizard life/Barrel_icon.png
+c0000000067A625290000000000016989
+t1738941737
+s92553
+
+N/Users/loganjoseph/Desktop/lizard life/lizard life/Images.xcassets
+c0000000067A69CF30000000000000176
+t1738972403
+s374
+
+N/Users/loganjoseph/Desktop/lizard life/lizard life/en.lproj/InfoPlist.strings
+c0000000067A585D6000000000000002D
+t1738900950
+s45
+
+N/Users/loganjoseph/Desktop/lizard life/lizard life/fly.png
+c0000000067A5644F0000000000028706
+t1738892367
+s165638
+
+N/Users/loganjoseph/Desktop/lizard life/lizard life/lizard.png
+c0000000067A564F2000000000003059A
+t1738892530
+s198042
+
+Nlizard life/lizard life-Info.plist
+c0000000067A58A2400000000000005F8
+t1738902052
+s1528
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies760893744#760893744#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'760893744#18446744073709551615#0#0(1@0"0(0#1#0"17239343360#0"0#
+
+CCopyStringsFile "/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Resources/en.lproj/InfoPlist.strings" "lizard life/en.lproj/InfoPlist.strings"
+r0
+
+CCpResource "build/Debug/lizard life.app/Contents/Resources/Barrel_icon.png" "lizard life/Barrel_icon.png"
+r0
+
+CCpResource "build/Debug/lizard life.app/Contents/Resources/Images.xcassets" "lizard life/Images.xcassets"
+r0
+
+CCpResource "build/Debug/lizard life.app/Contents/Resources/fly.png" "lizard life/fly.png"
+r0
+
+CCpResource "build/Debug/lizard life.app/Contents/Resources/lizard.png" "lizard life/lizard.png"
+r0
+
+CProcessInfoPlistFile "/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app/Contents/Info.plist" "lizard life/lizard life-Info.plist"
+r0
+
+CTouch "/Users/loganjoseph/Desktop/lizard life/build/Debug/lizard life.app"
+r0
+

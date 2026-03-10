@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA9FADA02D565CFE004FC1DF /* Barrel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9FAD9F2D565CFE004FC1DF /* Barrel_icon.png */; };
+		FAADE0982D55BD56004D7525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE0972D55BD56004D7525 /* Foundation.framework */; };
+		FAADE09A2D55BD56004D7525 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE0992D55BD56004D7525 /* CoreGraphics.framework */; };
+		FAADE09C2D55BD56004D7525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE09B2D55BD56004D7525 /* UIKit.framework */; };
+		FAADE0A22D55BD56004D7525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAADE0A02D55BD56004D7525 /* InfoPlist.strings */; };
+		FAADE0A42D55BD56004D7525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAADE0A32D55BD56004D7525 /* main.m */; };
+		FAADE0A82D55BD56004D7525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAADE0A72D55BD56004D7525 /* AppDelegate.m */; };
+		FAADE0B12D55BD56004D7525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAADE0B02D55BD56004D7525 /* ViewController.m */; };
+		FAADE0B32D55BD56004D7525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAADE0B22D55BD56004D7525 /* Images.xcassets */; };
+		FAADE0BA2D55BD56004D7525 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE0B92D55BD56004D7525 /* XCTest.framework */; };
+		FAADE0BB2D55BD56004D7525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE0972D55BD56004D7525 /* Foundation.framework */; };
+		FAADE0BC2D55BD56004D7525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADE09B2D55BD56004D7525 /* UIKit.framework */; };
+		FAADE0C42D55BD56004D7525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAADE0C22D55BD56004D7525 /* InfoPlist.strings */; };
+		FAADE0C62D55BD56004D7525 /* lizard_lifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAADE0C52D55BD56004D7525 /* lizard_lifeTests.m */; };
+		FAADE0D42D55C06F004D7525 /* fly.png in Resources */ = {isa = PBXBuildFile; fileRef = FAADE0D32D55C06F004D7525 /* fly.png */; };
+		FAADE0D62D55C0D4004D7525 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = FAADE0D52D55C0D4004D7525 /* lizard.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAADE0BD2D55BD56004D7525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAADE08C2D55BD55004D7525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAADE0932D55BD56004D7525;
+			remoteInfo = "lizard life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA9FAD9F2D565CFE004FC1DF /* Barrel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barrel_icon.png; sourceTree = "<group>"; };
+		FAADE0942D55BD56004D7525 /* lizard life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lizard life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAADE0972D55BD56004D7525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAADE0992D55BD56004D7525 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAADE09B2D55BD56004D7525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAADE09F2D55BD56004D7525 /* lizard life-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lizard life-Info.plist"; sourceTree = "<group>"; };
+		FAADE0A12D55BD56004D7525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAADE0A32D55BD56004D7525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAADE0A52D55BD56004D7525 /* lizard life-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lizard life-Prefix.pch"; sourceTree = "<group>"; };
+		FAADE0A62D55BD56004D7525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAADE0A72D55BD56004D7525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAADE0AF2D55BD56004D7525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAADE0B02D55BD56004D7525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAADE0B22D55BD56004D7525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		FAADE0B82D55BD56004D7525 /* lizard lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lizard lifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAADE0B92D55BD56004D7525 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAADE0C12D55BD56004D7525 /* lizard lifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lizard lifeTests-Info.plist"; sourceTree = "<group>"; };
+		FAADE0C32D55BD56004D7525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAADE0C52D55BD56004D7525 /* lizard_lifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lizard_lifeTests.m; sourceTree = "<group>"; };
+		FAADE0D02D55BF8F004D7525 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FAADE0D12D55BFB6004D7525 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FAADE0D32D55C06F004D7525 /* fly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly.png; sourceTree = "<group>"; };
+		FAADE0D52D55C0D4004D7525 /* lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lizard.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAADE0912D55BD56004D7525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADE09A2D55BD56004D7525 /* CoreGraphics.framework in Frameworks */,
+				FAADE09C2D55BD56004D7525 /* UIKit.framework in Frameworks */,
+				FAADE0982D55BD56004D7525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAADE0B52D55BD56004D7525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADE0BA2D55BD56004D7525 /* XCTest.framework in Frameworks */,
+				FAADE0BC2D55BD56004D7525 /* UIKit.framework in Frameworks */,
+				FAADE0BB2D55BD56004D7525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAADE08B2D55BD55004D7525 = {
+			isa = PBXGroup;
+			children = (
+				FAADE09D2D55BD56004D7525 /* lizard life */,
+				FAADE0BF2D55BD56004D7525 /* lizard lifeTests */,
+				FAADE0962D55BD56004D7525 /* Frameworks */,
+				FAADE0952D55BD56004D7525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAADE0952D55BD56004D7525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAADE0942D55BD56004D7525 /* lizard life.app */,
+				FAADE0B82D55BD56004D7525 /* lizard lifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAADE0962D55BD56004D7525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAADE0972D55BD56004D7525 /* Foundation.framework */,
+				FAADE0992D55BD56004D7525 /* CoreGraphics.framework */,
+				FAADE09B2D55BD56004D7525 /* UIKit.framework */,
+				FAADE0B92D55BD56004D7525 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAADE09D2D55BD56004D7525 /* lizard life */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FAD9F2D565CFE004FC1DF /* Barrel_icon.png */,
+				FAADE0D52D55C0D4004D7525 /* lizard.png */,
+				FAADE0D32D55C06F004D7525 /* fly.png */,
+				FAADE0A62D55BD56004D7525 /* AppDelegate.h */,
+				FAADE0A72D55BD56004D7525 /* AppDelegate.m */,
+				FAADE0AF2D55BD56004D7525 /* ViewController.h */,
+				FAADE0B02D55BD56004D7525 /* ViewController.m */,
+				FAADE0B22D55BD56004D7525 /* Images.xcassets */,
+				FAADE09E2D55BD56004D7525 /* Supporting Files */,
+				FAADE0D12D55BFB6004D7525 /* GameViewController.m */,
+			);
+			path = "lizard life";
+			sourceTree = "<group>";
+		};
+		FAADE09E2D55BD56004D7525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAADE0D02D55BF8F004D7525 /* GameViewController.h */,
+				FAADE09F2D55BD56004D7525 /* lizard life-Info.plist */,
+				FAADE0A02D55BD56004D7525 /* InfoPlist.strings */,
+				FAADE0A32D55BD56004D7525 /* main.m */,
+				FAADE0A52D55BD56004D7525 /* lizard life-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAADE0BF2D55BD56004D7525 /* lizard lifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAADE0C52D55BD56004D7525 /* lizard_lifeTests.m */,
+				FAADE0C02D55BD56004D7525 /* Supporting Files */,
+			);
+			path = "lizard lifeTests";
+			sourceTree = "<group>";
+		};
+		FAADE0C02D55BD56004D7525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAADE0C12D55BD56004D7525 /* lizard lifeTests-Info.plist */,
+				FAADE0C22D55BD56004D7525 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAADE0932D55BD56004D7525 /* lizard life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAADE0C92D55BD56004D7525 /* Build configuration list for PBXNativeTarget "lizard life" */;
+			buildPhases = (
+				FAADE0902D55BD56004D7525 /* Sources */,
+				FAADE0912D55BD56004D7525 /* Frameworks */,
+				FAADE0922D55BD56004D7525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lizard life";
+			productName = "lizard life";
+			productReference = FAADE0942D55BD56004D7525 /* lizard life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAADE0B72D55BD56004D7525 /* lizard lifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAADE0CC2D55BD56004D7525 /* Build configuration list for PBXNativeTarget "lizard lifeTests" */;
+			buildPhases = (
+				FAADE0B42D55BD56004D7525 /* Sources */,
+				FAADE0B52D55BD56004D7525 /* Frameworks */,
+				FAADE0B62D55BD56004D7525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAADE0BE2D55BD56004D7525 /* PBXTargetDependency */,
+			);
+			name = "lizard lifeTests";
+			productName = "lizard lifeTests";
+			productReference = FAADE0B82D55BD56004D7525 /* lizard lifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAADE08C2D55BD55004D7525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					FAADE0B72D55BD56004D7525 = {
+						TestTargetID = FAADE0932D55BD56004D7525;
+					};
+				};
+			};
+			buildConfigurationList = FAADE08F2D55BD55004D7525 /* Build configuration list for PBXProject "lizard life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAADE08B2D55BD55004D7525;
+			productRefGroup = FAADE0952D55BD56004D7525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAADE0932D55BD56004D7525 /* lizard life */,
+				FAADE0B72D55BD56004D7525 /* lizard lifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAADE0922D55BD56004D7525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9FADA02D565CFE004FC1DF /* Barrel_icon.png in Resources */,
+				FAADE0D42D55C06F004D7525 /* fly.png in Resources */,
+				FAADE0B32D55BD56004D7525 /* Images.xcassets in Resources */,
+				FAADE0A22D55BD56004D7525 /* InfoPlist.strings in Resources */,
+				FAADE0D62D55C0D4004D7525 /* lizard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAADE0B62D55BD56004D7525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADE0C42D55BD56004D7525 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAADE0902D55BD56004D7525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADE0B12D55BD56004D7525 /* ViewController.m in Sources */,
+				FAADE0A82D55BD56004D7525 /* AppDelegate.m in Sources */,
+				FAADE0A42D55BD56004D7525 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAADE0B42D55BD56004D7525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADE0C62D55BD56004D7525 /* lizard_lifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAADE0BE2D55BD56004D7525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAADE0932D55BD56004D7525 /* lizard life */;
+			targetProxy = FAADE0BD2D55BD56004D7525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAADE0A02D55BD56004D7525 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAADE0A12D55BD56004D7525 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAADE0C22D55BD56004D7525 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAADE0C32D55BD56004D7525 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAADE0C72D55BD56004D7525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAADE0C82D55BD56004D7525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAADE0CA2D55BD56004D7525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lizard life/lizard life-Prefix.pch";
+				INFOPLIST_FILE = "lizard life/lizard life-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAADE0CB2D55BD56004D7525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lizard life/lizard life-Prefix.pch";
+				INFOPLIST_FILE = "lizard life/lizard life-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAADE0CD2D55BD56004D7525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lizard life.app/lizard life";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lizard life/lizard life-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lizard lifeTests/lizard lifeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAADE0CE2D55BD56004D7525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lizard life.app/lizard life";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lizard life/lizard life-Prefix.pch";
+				INFOPLIST_FILE = "lizard lifeTests/lizard lifeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAADE08F2D55BD55004D7525 /* Build configuration list for PBXProject "lizard life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAADE0C72D55BD56004D7525 /* Debug */,
+				FAADE0C82D55BD56004D7525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAADE0C92D55BD56004D7525 /* Build configuration list for PBXNativeTarget "lizard life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAADE0CA2D55BD56004D7525 /* Debug */,
+				FAADE0CB2D55BD56004D7525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAADE0CC2D55BD56004D7525 /* Build configuration list for PBXNativeTarget "lizard lifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAADE0CD2D55BD56004D7525 /* Debug */,
+				FAADE0CE2D55BD56004D7525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAADE08C2D55BD55004D7525 /* Project object */;
+}
