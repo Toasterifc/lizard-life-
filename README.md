@@ -6,3 +6,4 @@ it will not save high scores after you close out of the app
 formatting is off on where it shows you your scores so it looks like it is lower then it is 
 source code coming when i fix these two bugs
 it also crashes on ipad 1 5.1.1
+UPDATE 2026 i have added the source code i will be working on a armv6 varation of this code which will be uploaded when i actually get around to doing it 
